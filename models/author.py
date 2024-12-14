@@ -65,3 +65,4 @@ class Author:
         cursor.execute('DELETE FROM authors WHERE id = ?', (self.id,))
         conn.commit()
         conn.close()
+
